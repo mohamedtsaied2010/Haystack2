@@ -16,8 +16,8 @@ components:    # define all the building-blocks for Pipeline
     #   model_name_or_path: deepset/roberta-base-squad2
     type: TransformersReader
     params:
-      model_name_or_path: deepset/roberta-base-squad2
-      tokenizer: deepset/roberta-base-squad2
+      model_name_or_path: twmkn9/bert-base-uncased-squad2
+      tokenizer: twmkn9/bert-base-uncased-squad2
       use_gpu: -1
       # context_window_size: 300
   - name: TextFileConverter
