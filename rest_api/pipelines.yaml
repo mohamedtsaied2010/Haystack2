@@ -13,11 +13,11 @@ components:    # define all the building-blocks for Pipeline
   - name: Reader       # custom-name for the component; helpful for visualization & debugging
     # type: FARMReader    # Haystack Class name for the component
     # params:
-    #   model_name_or_path: deepset/roberta-base-squad2
+    #   model_name_or_path: ahotrod/albert_xxlargev1_squad2_512
     type: TransformersReader
     params:
-      model_name_or_path: twmkn9/bert-base-uncased-squad2
-      tokenizer: twmkn9/bert-base-uncased-squad2
+      model_name_or_path: ahotrod/albert_xxlargev1_squad2_512
+      tokenizer: ahotrod/albert_xxlargev1_squad2_512
       use_gpu: -1
       # context_window_size: 300
   - name: TextFileConverter
